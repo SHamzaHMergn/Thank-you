@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Thank You</title>
+  <meta name="viewport" content="width=300, height=200">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 300px;
+      height: 200px;
+      background-color: #f8f9fa;
+      font-family: sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      box-sizing: border-box;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 8px;
+      right: 12px;
+      background: transparent;
+      border: none;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #000;
+    }
+
+    .message {
+      font-size: 16px;
+      font-weight: bold;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <button class="close-btn" onclick="window.close()">×</button>
+  <div class="message">Thank you!</div>
+</body>
+</html>
